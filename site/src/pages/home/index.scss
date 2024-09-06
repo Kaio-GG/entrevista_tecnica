@@ -1,0 +1,71 @@
+.pg-home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+    .container-topo-imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000),
+                            url(../../../public/assets/image/imagemTopo.svg);
+        height: 395px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        margin-bottom: 5%;
+        .ajuste-espaco{
+            width: 90%;
+        }
+        .titulo{
+            width: 822px;
+            height: 128px;
+            top: 196px;
+            font-size: 48px;
+            font-weight: 600;
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+        }
+        .sub-titulo{
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            text-align: left;
+            width: 389px;
+            height: 54px;       
+        }
+        .btn-topo{
+            width: 227px;
+            height: 60px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 5px;
+            background: #F71963;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+        } 
+    }
+    .parceiros-horizontal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .container-sub-titulo{
+        display: flex;
+        flex-direction: column;
+        width: 1138px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+}

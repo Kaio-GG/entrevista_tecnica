@@ -1,0 +1,147 @@
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes desaparecer {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+.cp-card-detalhe-compra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .x {
+        position: absolute;
+        left: 1030px;
+        top: 205px;
+        height: 20px;
+        cursor: pointer;
+        animation: aparecer 2s ease-out;
+    }
+
+    .caixa {
+        position: relative;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 769px;
+        height: 299.26px;
+        animation: aparecer 0.3s ease-out;
+
+        &.escondendo {
+        animation: desaparecer 0.3s ease-out;
+    }
+    }
+
+    h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #041E50;
+    }
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #041E50;
+        margin-top: -10px;
+    }
+
+    .txt-desc {
+        width: 290px;
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin-top: -10px;
+    }
+
+    .txt-veja-mais {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #041E50;
+    }
+
+    button {
+        width: 245px;
+        height: 44px;
+        border-radius: 4px;
+        opacity: 1;
+        border: none;
+        background: #F71963;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .qtd{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #041E50;
+    }
+
+    .btn-aumentar-diminuir {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 110px;
+        height: 36px;
+        border-radius: 4px;
+        border: 1px solid #041E50;
+        img{
+            cursor: pointer;
+        }
+    }
+
+    .org-direita {
+        width: 330px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

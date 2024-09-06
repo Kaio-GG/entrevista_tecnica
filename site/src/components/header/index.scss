@@ -1,0 +1,95 @@
+.cp-header{
+    display: flex;
+    flex-direction: column;
+    height: 144px;
+    width: 1280px;
+    font-family: 'Poppins', sans-serif;
+    
+    .container-top-icons{
+        display: flex;
+        height: 32px;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .logo-input-btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 72px;
+    }
+    .logo-vtex{
+        width: 139px;
+        height: 50.64px;
+        top: 39px;
+        left: 56px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .icons-meio{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 15%;
+    }
+    .logo-caixa,.logo-heart,.logo-user-circle,.logo-shopping-cart{
+        width: 32px;
+        height: 32px;
+        top: 52px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .input-logoLupa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 657px;
+        height: 48px;
+        top: 44px;
+        left: 290px;
+        gap: 0px;
+        border-radius: 10px;
+        background-color: #F6F5F2;
+    }
+
+    .input-search{
+        width: 90%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+    }
+    .input-search::placeholder{
+        color: #9F9F9F;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    .navegacao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: center;
+        color: #9F9F9F;
+        box-shadow: 0px 8px 16px 0px #3930131F;
+        .marcar{
+            color: #F71963;
+        }
+        p{
+            transition: 5 ease-in-out;
+            cursor: pointer;
+        }
+        p:hover{
+            color: #F71963;
+        }
+    }
+}

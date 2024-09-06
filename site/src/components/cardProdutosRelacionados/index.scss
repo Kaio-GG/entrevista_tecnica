@@ -1,0 +1,50 @@
+.cp-card-parceiros{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 589.73px;
+    height: 284px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: 41px;
+    .titulo{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: left;     
+    }
+    .txt{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        width: 181px;
+        height: 48px;
+        top: 1645px;     
+        gap: 0px;
+        opacity: 0px;
+    }
+    .btn-confira{
+        font-family: 'Poppins', sans-serif;
+        width: 131px;
+        height: 48px;
+        top: 1725px;     
+        gap: 0px;
+        border: none;
+        border-radius: 10px;
+        background: #F71963;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 24px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #fff;
+    }
+}

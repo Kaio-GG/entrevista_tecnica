@@ -1,0 +1,28 @@
+
+
+.cp-filtro-texto{
+    display: flex;
+    width:  1264px;
+    height: 37px;
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #BDBDBD;
+        width: 200px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        transition: 1.5 ease-out;
+        cursor: pointer;
+        &:hover {
+            color: #F71963;
+            font-weight: 700;
+        }
+    }
+    .marcar{
+        color: #F71963;
+        font-weight: 700;
+    }
+}

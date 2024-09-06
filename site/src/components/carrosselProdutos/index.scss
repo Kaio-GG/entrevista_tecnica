@@ -1,0 +1,136 @@
+
+
+
+.cp-carrossel{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-direction: row;
+    width: 98%;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .carrossel-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        width: 95%;
+    }
+    .carrossel-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card-carrossel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        width: 270px;
+        height: 500px;
+        margin-right: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 19px 0px #00000038;
+        padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        scroll-snap-align: center;
+        p{
+            width: 95%;
+        }
+    }
+    .descricao{
+        top: 269px;
+        left: 11px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: #3F3F40;
+    }
+    .valor-real{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -10px;
+        text-align: left;
+        color: #808080;
+        text-decoration: line-through;
+    }
+    .valor-desconto{
+        font-family: 'Poppins', sans-serif;
+        margin-top: -20px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+        color: #3F3F40;
+    }
+    .tx-parcela{
+        margin-top: -10px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        color:#3F3F40;
+    }
+    .tx-fretegratis{
+        margin-top: -10px;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        color: #F71963;
+    }
+    .btn-comprar{
+        width: 90%;
+        height: 44px;
+        left: 11px;
+        border-radius: 4px;
+        background-color: #F71963;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+    }
+    .btn-setaEsquerda{
+        background-image: url(../../../public/assets/image/setaEsquerda.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 34px;
+        width: 20px;
+        border: none;
+        background-color: transparent;
+    }
+    .btn-setaDireita{
+        background-image: url(../../../public/assets/image/setaDireita.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 34px;
+        width: 20px;
+        border: none;
+        background-color: transparent;
+        left: 90%;      
+    }
+    .btn-setaEsquerda, .btn-setaDireita {
+        
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 34px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+}
